@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.to_do_box {
+    justify-content: center;
+}
+
+.to_do_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.to_do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    color: blue;
+}
+
+.to_do > button {
+    height: 50%;
+    background-color: transparent;
+    border: None;
+    color: red;
+    font-weight: bolder;
+}
+
+.to_do > button:hover {
+    cursor: pointer;
+}
