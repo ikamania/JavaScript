@@ -38,4 +38,5 @@ body {
     top: 200px;
     left: 210px;
     color: blue;
+    z-index: 1;
 }
